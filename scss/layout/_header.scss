@@ -1,0 +1,30 @@
+.header {
+    background-color: $color-background;
+    &__inner {
+        padding: 16px 19px 6px 19px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    &__img {
+        width: 134px;
+        height: 69px;
+    }
+}
+
+.navigation {
+    &__list {
+        display: flex;
+        gap: 64px;
+    }
+
+    &__link {
+        font-family: 'Montserrat-SemiBold', sans-serif;
+        font-size: $font-size-general;
+        color: $color-text;
+    }
+}
