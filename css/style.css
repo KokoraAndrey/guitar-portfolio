@@ -136,9 +136,18 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.gray-background {
   background-color: #f0f0f0;
 }
+
+.hero__rectangle-gray, .hero__rectangle-orange, .hero__rectangle-blue {
+  width: 618px;
+  height: 220px;
+  border-radius: 100px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+
 .header__inner {
   padding: 16px 19px 6px 19px;
   display: flex;
@@ -159,6 +168,35 @@ body {
   font-family: "Montserrat-SemiBold", sans-serif;
   font-size: 18px;
   color: #000;
+}
+
+.hero__content {
+  position: relative;
+}
+.hero__guitarist {
+  position: relative;
+  z-index: 4;
+}
+.hero__rectangle-blue {
+  transform: rotate(-64deg);
+  background-color: #5290ea;
+  top: 150px;
+  left: -50px;
+  z-index: 2;
+}
+.hero__rectangle-orange {
+  transform: rotate(-50.81deg);
+  background-color: #f28b64;
+  top: 138px;
+  left: 0px;
+  z-index: 3;
+}
+.hero__rectangle-gray {
+  transform: rotate(-36.15deg);
+  background-color: #e2e2e2;
+  top: 190px;
+  left: 10px;
+  z-index: 1;
 }
 
 h1 {

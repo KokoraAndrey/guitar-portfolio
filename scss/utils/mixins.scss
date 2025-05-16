@@ -1,0 +1,8 @@
+@mixin rectangle($background-color, $angle, $top, $left, $z-index) {
+    @extend %rectangle;
+    transform: rotate($angle);
+    background-color: $background-color;
+    top: $top;
+    left: $left;
+    z-index: $z-index;
+}

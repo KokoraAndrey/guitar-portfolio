@@ -1,0 +1,22 @@
+.hero {
+    &__content {
+        position: relative;
+    }
+
+    &__guitarist {
+        position: relative;
+        z-index: 4;
+    }
+
+    &__rectangle {
+        &-blue {
+            @include rectangle($color-blue, -64deg, 150px, -50px, 2);
+        }
+        &-orange {
+            @include rectangle($color-orange, -50.81deg, 138px, 0px, 3);
+        }
+        &-gray {
+            @include rectangle($color-gray, -36.15deg, 190px, 10px, 1);
+        }
+    }
+}

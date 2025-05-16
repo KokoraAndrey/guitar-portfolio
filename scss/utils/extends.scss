@@ -1,0 +1,11 @@
+%gray-background {
+    background-color: $color-background;
+}
+
+%rectangle {
+    width: 618px;
+    height: 220px;
+    border-radius: 100px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
